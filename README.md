@@ -28,6 +28,7 @@ Microservice Security:
 
 Microservice at scale(Scalable architecture):
 Fault tolerant, highly available, high performing(fast response time), highly scalable
+
 Scalable Architecture design principles:
 Simplicity
 Decomposition
@@ -35,11 +36,17 @@ Asynchronous
 Loose Coupling High Cohesion
 Concurrency and Parellization
 Decentralization/Distribution
+Stateless
 
 
 Scalable Architecture Design Patterns:
 
 
+Scalable Architecture Building Blocks(tools and frameworks):
+Load Balancers
+Messaging Queues
+Caches
+Reverse Proxy
 
 
 
