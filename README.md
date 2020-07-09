@@ -48,6 +48,14 @@ Messaging Queues
 Caches
 Reverse Proxy
 
+REST (REpresentational State Transfer) API:
+REST is an architectural style for Distributed hypermedia systems.
+
+Archotectural principles(constraints) of REST:
+Client-Server
+Staeless
+Caheable
+Uniform Interface
 
 
 Spring Boot can be used as a framework for HTTP/REST implementation to develop RESTFul Microservices.
