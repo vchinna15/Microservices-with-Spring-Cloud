@@ -66,6 +66,8 @@ Resource Representation- state of the resource at any particular timestamp. It c
 Media type: is a data format of a resource representation.
 Resource Methods - (GET/POST...) - used to perform transition to the resouce.
 REST is not HTTP: Client and server exchange resource representation through HTTP protocol.
+Data format of the representaion is decoupled from the resource. so resoure can be in HTML, XML, JSOkN or any other format.
+Meta data is available to control cache, to transmit errors, to negotiate appropriate represntation and to perform autnetication and access control.
 
 How to design REST API:
 Identify object model
