@@ -63,7 +63,17 @@ Key Terminologies:
 Resource - any information that can be named is a resource. It could be a document or image or textor object
 Resource Identifier - is used  to identify a particular resource (/books/21212)
 Resource Representation- state of the resource at any particular timestamp. It consists of data metadata and hypermedia links.
-Media type: is a data format of resource representation.
+Media type: is a data format of a resource representation.
+Resource Methods - (GET/POST...) - used to perform transition to the resouce.
+REST is not HTTP: Client and server exchange resource representation through HTTP protocol.
+
+How to design REST API:
+Identify object model
+create model URIs
+Determine representations
+Assign HTTP Methods
+Logging/Security/discovery
+
 
 
 Spring Boot can be used as a framework for HTTP/REST implementation to develop RESTFul Microservices.
