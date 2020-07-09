@@ -56,6 +56,14 @@ Client-Server
 Staeless
 Caheable
 Uniform Interface
+Layered System
+Code on Demand
+
+Key Terminologies:
+Resource - any information that can be named is a resource. It could be a document or image or textor object
+Resource Identifier - is used  to identify a particular resource (/books/21212)
+Resource Representation- state of the resource at any particular timestamp. It consists of data metadata and hypermedia links.
+Media type: is a data format of resource representation.
 
 
 Spring Boot can be used as a framework for HTTP/REST implementation to develop RESTFul Microservices.
