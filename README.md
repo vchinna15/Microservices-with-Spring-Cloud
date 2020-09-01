@@ -4,6 +4,11 @@ Microservice is a small(doing one thing/delivering single business capability), 
 Evolution of Microservice Architecture style:
 Monolithic Architecture-> Distributed Architecture -> Service Oriented Architecture(coarse-grained service) -> Microservice Architecture(fine-grained service) & API
 
+Scale Cude:
+1. X-Axis Scaling- Cloning/Replicating (running multiple instances of an application)
+2. Y-Axis Scaling - Functional Decomposition(splitting functionality into multiple services- Microservices follow this approach)
+3. Z-Axis Scaling - running multiple instance of same application but each application access different subset of data(sharding)(used mainly at db side)
+
 Microservice exposes Servie Endpoints as APIs. Service Endpoints are defined as REST/JSON over HTTP.
 
 Microservice Architecture:
