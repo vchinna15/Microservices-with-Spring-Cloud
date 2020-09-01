@@ -85,3 +85,11 @@ Logging/Security/discovery
 
 Spring Boot can be used as a framework for HTTP/REST implementation to develop RESTFul Microservices.
 Spring CLoud provides implementation for common distributed design patterns.
+
+Microserviec Architecture patterns
+Application patterns
+Application Infrastructure patterns
+Infrastructure patterens
+  Deployment
+  Service Registry & Discovery
+  External API Access
