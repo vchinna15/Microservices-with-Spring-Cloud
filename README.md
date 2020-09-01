@@ -89,11 +89,14 @@ Spring CLoud provides implementation for common distributed design patterns.
 Microserviec Architecture patterns
 
 Application patterns
+
   Desomposition patterns
-    by business capability
-    By Sub domain
-    self contained service
+  
+      by business capability
+      By Sub domain
+      self contained service
   Data Patterns
+  
     shared database 
     databese per service
     Querying patterns
