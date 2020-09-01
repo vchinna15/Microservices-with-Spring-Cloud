@@ -87,11 +87,23 @@ Spring Boot can be used as a framework for HTTP/REST implementation to develop R
 Spring CLoud provides implementation for common distributed design patterns.
 
 Microserviec Architecture patterns
+
 Application patterns
   Desomposition patterns
+    by business capability
+    By Sub domain
+    self contained service
   Data Patterns
+    shared database 
+    databese per service
+    Querying patterns
+      CQRS(Domain Event, Event sourcing
+      API Composition
+     Data consistency pattern
+      Saga    
   Testing apttern
   UI Pattern
+  
 Application Infrastructure patterns
   Communication pattern
   cross-cutting concerns pattern
