@@ -110,8 +110,8 @@ Application patterns
 Application Infrastructure patterns
   Communication pattern
   
-    Communication Style: If each request must be processed by single microsrvice app, use synchronous communication(http protocol). If each request is processed by multiple service, then use aynshronous communication style(messaging protocol-jms or TCP).
-    
+   Communication Style: If each request must be processed by single microsrvice app, use synchronous communication(http protocol). If each request is processed by multiple   service, then use aynshronous communication style(messaging protocol-jms or TCP). Usually Query Requests(payment history, search customer) use synchronous; Data Updates(create order, create payment) requests use asynchronous.
+     
   cross-cutting concerns pattern
   security
   observability
